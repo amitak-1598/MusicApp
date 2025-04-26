@@ -33,7 +33,7 @@ let slash = document.getElementById('slash');
 
 
 let obj = [
-   { SongName: "Thoda Thoda Pyaar-Stebin", FilePath: 'songs/1.mp3', SongDuration: '04:32', CoverPath: 'covers/1.jpg', id: '1' },
+   { SongName: "Ram Siya Ram", FilePath: 'songs/1.mp3', SongDuration: '04:10', CoverPath: 'covers/1.jpg', id: '1' },
    { SongName: "Buddhu sa Mann", FilePath: 'songs/2.mp3', SongDuration: '03:27', CoverPath: 'covers/2.jpg', id: '2' },
    { SongName: "Kesariya-Arijit Singh", FilePath: 'songs/3.mp3', SongDuration: '04:28', CoverPath: 'covers/3.jpg', id: '3' },
    { SongName: "Heer Raanjhana-Arijit", FilePath: 'songs/4.mp3', SongDuration: '04:00', CoverPath: 'covers/4.jpg', id: '4' },
