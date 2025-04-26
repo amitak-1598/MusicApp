@@ -34,12 +34,12 @@ let slash = document.getElementById('slash');
 
 let obj = [
    { SongName: "Ram Siya Ram", FilePath: 'songs/1.mp3', SongDuration: '04:10', CoverPath: 'covers/1.jpg', id: '1' },
-   { SongName: "Buddhu sa Mann", FilePath: 'songs/2.mp3', SongDuration: '03:27', CoverPath: 'covers/2.jpg', id: '2' },
-   { SongName: "Kesariya ", FilePath: 'songs/3.mp3', SongDuration: '04:28', CoverPath: 'covers/3.jpg', id: '3' },
-   { SongName: "Heer Raanjhana ", FilePath: 'songs/4.mp3', SongDuration: '04:00', CoverPath: 'covers/4.jpg', id: '4' },
-   { SongName: "Mast Nazron Se-Jubin", FilePath: 'songs/5.mp3', SongDuration: '05:00', CoverPath: 'covers/5.jpg', id: '5' },
-   { SongName: "Mast Magan-Arijit Singh", FilePath: 'songs/6.mp3', SongDuration: '04:40', CoverPath: 'covers/6.jpg', id: '6' },
-   { SongName: "Dil Mein Ho Tum", FilePath: 'songs/7.mp3', SongDuration: '05:26', CoverPath: 'covers/7.jpg', id: '7' }];
+   { SongName: "Adharam Madhuram", FilePath: 'songs/2.mp3', SongDuration: '31:37', CoverPath: 'covers/2.jpg', id: '2' },
+   { SongName: "Hanuman Chalisa", FilePath: 'songs/3.mp3', SongDuration: '09:47', CoverPath: 'covers/3.jpg', id: '3' },
+   { SongName: "Namo Namo ", FilePath: 'songs/4.mp3', SongDuration: '05:03', CoverPath: 'covers/4.jpg', id: '4' },
+   { SongName: "Tum Prem Ho", FilePath: 'songs/5.mp3', SongDuration: '05:03', CoverPath: 'covers/5.jpg', id: '5' },
+   { SongName: "Meri Maa Ke Barabar Koi Nahi", FilePath: 'songs/6.mp3', SongDuration: '05:27', CoverPath: 'covers/6.jpg', id: '6' },
+   { SongName: "Shri Mata Vaishno Devi Darshan", FilePath: 'songs/7.mp3', SongDuration: '08:30', CoverPath: 'covers/7.jpg', id: '7' }];
 
 let obj2 = [
    { SongName: "I Love You-Akul", FilePath: 'songs/8.mp3', SongDuration: '03:37', CoverPath: 'covers/8.jpg', id: '8' },
