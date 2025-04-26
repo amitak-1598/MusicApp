@@ -38,35 +38,35 @@ let obj = [
    { SongName: "Hanuman Chalisa", FilePath: 'songs/3.mp3', SongDuration: '09:47', CoverPath: 'covers/3.jpg', id: '3' },
    { SongName: "Namo Namo ", FilePath: 'songs/4.mp3', SongDuration: '05:03', CoverPath: 'covers/4.jpg', id: '4' },
    { SongName: "Tum Prem Ho", FilePath: 'songs/5.mp3', SongDuration: '05:03', CoverPath: 'covers/5.jpg', id: '5' },
-   { SongName: "Meri Maa Ke Barabar Koi Nahi", FilePath: 'songs/6.mp3', SongDuration: '05:27', CoverPath: 'covers/6.jpg', id: '6' },
-   { SongName: "Shri Mata Vaishno Devi Darshan", FilePath: 'songs/7.mp3', SongDuration: '08:30', CoverPath: 'covers/7.jpg', id: '7' }];
+   { SongName: "Meri Maa Ke Barabar Koi", FilePath: 'songs/6.mp3', SongDuration: '05:27', CoverPath: 'covers/6.jpg', id: '6' },
+   { SongName: "Shri Mata Vaishno Devi", FilePath: 'songs/7.mp3', SongDuration: '08:30', CoverPath: 'covers/7.jpg', id: '7' }];
 
 let obj2 = [
-   { SongName: "I Love You-Akul", FilePath: 'songs/8.mp3', SongDuration: '03:37', CoverPath: 'covers/8.jpg', id: '8' },
-   { SongName: "Dil Jaaniye-Jubin Nautiyal", FilePath: 'songs/9.mp3', SongDuration: '04:42', CoverPath: 'covers/9.jpg', id: '9' },
-   { SongName: "Sajde-K.K", FilePath: 'songs/10.mp3', SongDuration: '05:25', CoverPath: 'covers/10.jpg', id: '10' },
-   { SongName: "Tenu Lehanga-Jass", FilePath: 'songs/11.mp3', SongDuration: '04:07', CoverPath: 'covers/11.jpg', id: '11' },
-   { SongName: "Khairiyat-Arijit Singh", FilePath: 'songs/12.mp3', SongDuration: '04:40', CoverPath: 'covers/12.jpg', id: '12' },
-   { SongName: "Shayad-Arijit Singh", FilePath: 'songs/13.mp3', SongDuration: '04:08', CoverPath: 'covers/13.jpg', id: '13' },
-   { SongName: "Teri Ore-Rahat Fateh", FilePath: 'songs/14.mp3', SongDuration: '05:37', CoverPath: 'covers/14.jpg', id: '14' }
+   { SongName: "Behe Chala", FilePath: 'songs/8.mp3', SongDuration: '05:30', CoverPath: 'covers/8.jpg', id: '8' },
+   { SongName: "Teri Mitti", FilePath: 'songs/9.mp3', SongDuration: '04:32', CoverPath: 'covers/9.jpg', id: '9' },
+   { SongName: "Raazi", FilePath: 'songs/10.mp3', SongDuration: '03:12', CoverPath: 'covers/10.jpg', id: '10' },
+   { SongName: "Lehra Do", FilePath: 'songs/11.mp3', SongDuration: '03:53', CoverPath: 'covers/11.jpg', id: '11' },
+   { SongName: "Jai Ho", FilePath: 'songs/12.mp3', SongDuration: '02:59', CoverPath: 'covers/12.jpg', id: '12' },
+   { SongName: "Sultan", FilePath: 'songs/13.mp3', SongDuration: '04:12', CoverPath: 'covers/13.jpg', id: '13' },
+   { SongName: "Ashq Na Ho", FilePath: 'songs/14.mp3', SongDuration: '06:34', CoverPath: 'covers/14.jpg', id: '14' }
 ]
 let obj3 = [
-   { SongName: "Temporary Pyaar-Kaka", FilePath: 'songs/15.mp3', SongDuration: '04:19', CoverPath: 'covers/15.jpg', id: '15' },
-   { SongName: "Haan Tu Hai-K.K", FilePath: 'songs/16.mp3', SongDuration: '05:24', CoverPath: 'covers/16.jpg', id: '16' },
-   { SongName: "295-Sidhu Moose Wala", FilePath: 'songs/17.mp3', SongDuration: '04:30', CoverPath: 'covers/17.jpg', id: '17' },
-   { SongName: "Kale Je Libaas Di-Kaka", FilePath: 'songs/18.mp3', SongDuration: '04:27', CoverPath: 'covers/18.jpg', id: '18' },
-   { SongName: "Pasoori-Shae Gill", FilePath: 'songs/19.mp3', SongDuration: '03:04', CoverPath: 'covers/19.jpg', id: '19' },
-   { SongName: "Tera Hone Laga Hoon", FilePath: 'songs/20.mp3', SongDuration: '05:00', CoverPath: 'covers/20.jpg', id: '20' },
-   { SongName: "Desh Mere-Arijit Singh", FilePath: 'songs/21.mp3', SongDuration: '03:08', CoverPath: 'covers/21.jpg', id: '21' }];
+   { SongName: "Hamdard", FilePath: 'songs/15.mp3', SongDuration: '04:19', CoverPath: 'covers/15.jpg', id: '15' },
+   { SongName: "Tere Hawale", FilePath: 'songs/16.mp3', SongDuration: '05:30', CoverPath: 'covers/16.jpg', id: '16' },
+   { SongName: "Mitwa", FilePath: 'songs/17.mp3', SongDuration: '06:00', CoverPath: 'covers/17.jpg', id: '17' },
+   { SongName: "O Saathi", FilePath: 'songs/18.mp3', SongDuration: '04:30', CoverPath: 'covers/18.jpg', id: '18' },
+   { SongName: "Besabriyan", FilePath: 'songs/19.mp3', SongDuration: '03:30', CoverPath: 'covers/19.jpg', id: '19' },
+   { SongName: "Kaise Hua", FilePath: 'songs/20.mp3', SongDuration: '04:14', CoverPath: 'covers/20.jpg', id: '20' },
+   { SongName: "Agar Tum Saath Ho", FilePath: 'songs/21.mp3', SongDuration: '03:11', CoverPath: 'covers/21.jpg', id: '21' }];
 
 let obj4 = [
-   { SongName: "Angrezi Beat-Honey Singh", FilePath: 'songs/22.mp3', SongDuration: '03:04', CoverPath: 'covers/22.jpg', id: '22' },
-   { SongName: "High Heels-Honey Singh", FilePath: 'songs/23.mp3', SongDuration: '04:42', CoverPath: 'covers/23.jpg', id: '23' },
-   { SongName: "Gabru-Honey Singh", FilePath: 'songs/24.mp3', SongDuration: '05:24', CoverPath: 'covers/24.jpg', id: '24' },
-   { SongName: "Blue Eyes-Honey Singh", FilePath: 'songs/25.mp3', SongDuration: '04:00', CoverPath: 'covers/25.jpg', id: '25' },
-   { SongName: "Dheere Dheere-Honey", FilePath: 'songs/26.mp3', SongDuration: '05:25', CoverPath: 'covers/26.jpg', id: '26' },
-   { SongName: "Phulkari-Karan Randhawa", FilePath: 'songs/27.mp3', SongDuration: '03:16', CoverPath: 'covers/27.jpg', id: '27' },
-   { SongName: "Mere Wala Sardar-Jugraj", FilePath: 'songs/28.mp3', SongDuration: '05:16', CoverPath: 'covers/28.jpg', id: '28' }
+   { SongName: "Soch Na Sake", FilePath: 'songs/22.mp3', SongDuration: '04:20', CoverPath: 'covers/22.jpg', id: '22' },
+   { SongName: "Duniya", FilePath: 'songs/23.mp3', SongDuration: '03:51', CoverPath: 'covers/23.jpg', id: '23' },
+   { SongName: "Nazm Nazm", FilePath: 'songs/24.mp3', SongDuration: '03:55', CoverPath: 'covers/24.jpg', id: '24' },
+   { SongName: "Dil Mai Ho tum", FilePath: 'songs/25.mp3', SongDuration: '05:45', CoverPath: 'covers/25.jpg', id: '25' },
+   { SongName: "Yeh Tune Kya Kiya", FilePath: 'songs/26.mp3', SongDuration: '05:03', CoverPath: 'covers/26.jpg', id: '26' },
+   { SongName: "Humraah", FilePath: 'songs/27.mp3', SongDuration: '05:17', CoverPath: 'covers/27.jpg', id: '27' },
+   { SongName: "Tu Janne Na Piya", FilePath: 'songs/28.mp3', SongDuration: '04:06', CoverPath: 'covers/28.jpg', id: '28' }
 ]
 
 
