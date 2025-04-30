@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
-;
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
 body {
     background-color: pink;
-   
 }
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  
-
 }
 
 ul li {
     list-style: none;
-
 }
 
 ul {
@@ -28,17 +24,14 @@ a {
     color: white;
     text-decoration: none;
     padding: 0px 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
-   
 }
 
 nav {
-
     background-color: black;
     height: 48px;
     color: white;
-
 }
 
 .nav {
@@ -50,7 +43,6 @@ nav {
 span {
     margin-top: 7px;
     margin-left: 7px;
-
 }
 
 .brand {
@@ -59,8 +51,6 @@ span {
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
-
-
 }
 
 img {
@@ -69,242 +59,305 @@ img {
     margin-top: 6px;
     margin-left: 9px;
 }
-.container{
 
-background:url('bg3.jpg')no-repeat center center fixed;
-background-size: cover;
-min-height:83.2vh;
-display: flex;
-align-items: center;
-justify-content:center ;
-}
-.bottom{
-background-color: black;
-min-height:9.1vh;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-padding-top: 21.2px;
-/* border: 2px solid whitesmoke; */
-}
-.songSection{
-   
-    height: 550px;
-border-radius: 20px;
-    width: 830px;;
-    background: url("bg.jpg")no-repeat center center ;
+.container {
+    background: url('bg3.jpg') no-repeat center center fixed;
     background-size: cover;
-  
+    min-height: 83.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#player{
+
+.bottom {
+    background-color: black;
+    min-height: 9.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 21.2px;
+}
+
+.songSection {
+    height: 550px;
+    border-radius: 20px;
+    width: 830px;
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#player {
     width: 1200px;
     margin-top: -12px;
-    /* border: 2px solid red; */
     cursor: pointer;
 }
 
-
-i{
+i {
     margin: 5px 8px;
-    /* border: 2px solid red; */
 }
-input{
-  margin-top: 15px;
-  border: 2px solid red;
+
+input {
+    margin-top: 15px;
+    border: 2px solid red;
 }
-.songSection h1{
-     color:white;
-     font-family: 'Titillium Web', sans-serif;
-     margin-top: 14px;
-     margin-left: 15px;
+
+.songSection h1 {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 14px;
+    margin-left: 15px;
 }
-.song{
+
+.song {
     color: black;
     background-color: white;
     width: 400px;
     border-radius: 18px;
-    margin:22px 0px ;
+    margin: 22px 0px;
     margin-left: 38px;
     display: flex;
     align-items: center;
     height: 43px;
     font-family: 'Titillium Web', sans-serif;
+}
 
+.songbar {
+    padding-top: 15px;
 }
-.songbar{
-    /* border: 2px solid red; */
-    padding-top: 15x ;
-}
-.songSection img{
+
+.songSection img {
     border-radius: 34px;
     margin-top: 1px;
-    
 }
-.songname{
+
+.songname {
     margin-left: 13px;
-}
-.songListplay{
-
- display: flex;
- margin-top: 6.6px;
- height: 34;
- /* border: 2px solid black; */
- /* margin-left: 80px; */
-
- 
-
-}
-.songListplay i{
     margin-top: 1px;
-   
-}
-.songname{
-    margin-top: 1px;
-    /* border: 2px solid red; */
     width: 187px;
     height: 30px;
- 
 }
-.timestamp{
-  
-   height: 21px;
-   font-size: 16px;
-   padding: 1px 12px;
-   text-align: center;
-   height: 25px;
-   margin-top: 3px;
-   /* border: 2px solid red; */
 
+.songListplay {
+    display: flex;
+    margin-top: 6.6px;
 }
-.s{
-    color: white;
+
+.songListplay i {
+    margin-top: 1px;
 }
-.songContainer{
-    /* border: 2px solid red; */
+
+.timestamp {
+    height: 25px;
+    font-size: 16px;
+    padding: 1px 12px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.songContainer {
     width: 500px;
     margin-top: -1px;
+    height: 490px;
 }
-#img{
+
+#img {
     height: 20px;
     width: 100px;
-    /* border: 2px solid white; */
     opacity: 0;
     transition: opacity 0.5s ease-in;
     margin-left: -140px;
 }
-.gif{
-    /* border: 2px solid white; */
+
+.gif {
     text-align: center;
     margin-left: 20px;
     width: 405px;
 }
-.songbar{
-    /* border: 2px solid white; */
+
+.songbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 60px;
     margin-top: -8px;
-    
 }
-#songGif{
+
+#songGif {
     color: white;
     margin-left: 35px;
-text-align: center;
-/* border: 2px solid #dfcece; */
-width: 250px;
+    text-align: center;
+    width: 250px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
-    /* border: 2px solid green; */
-   margin-left: -25px;
-   font-family: 'Titillium Web', sans-serif;
-   margin-top: 1.2px;
+    margin-left: -25px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 1.2px;
 }
-.icons{
+
+.icons {
     color: white;
     display: flex;
-    /* border: 2px solid blue; */
-    /* margin-left: 180px; */
- 
+    margin-left: 42px;
 }
-#masterPlay{
-    /* border: 2px solid white; */
+
+#masterPlay {
     cursor: pointer;
 }
-.duration{
-    /* border:2px solid red; */
+
+.duration {
     display: flex;
     color: white;
     padding: 0px 4px;
     height: 30px;
     margin-top: 4px;
     margin-left: 350px;
+    width: 100px;
 }
-/* .songPlay{
-    border: 2px solid red;
-} */
-.duration{
 
-}
-.change{
-    color:white;
-    /* border: 2px solid whitesmoke; */
+.change {
+    color: white;
     height: 27px;
     display: flex;
     width: 200px;
-    margin-top:-15px;
+    margin-top: -15px;
     margin-left: 210px;
-    /* text-decoration: underline; */
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
-   
 }
 
-.songSection{
-    /* border: 2px solid wheat; */
-}
-.songContainer{
-    /* border: 2px solid blue; */
-    margin-top: -10px;
-    height: 490px;
-}
-.changeButton{
+.changeButton {
     margin: 0px 10px;
     margin-top: 5px;
     color: white;
-    background-color:transparent;
+    background-color: transparent;
     border: transparent;
-   
-
-
 }
-.changeButton:hover{
+
+.changeButton:hover {
     color: red;
 }
-h1{
+
+h1 {
     margin-top: 6px;
 }
-#mys{
+
+#mys {
     margin-top: 25px;
 }
-/* #img{
-    border: 2px solid red;
-    margin: 0px;
-} */
-#slash{
+
+#slash {
     opacity: 0;
 }
-#ratio{
+
+#ratio {
     opacity: 0;
 }
-.duration{
-   
-    width: 100px;
+
+/* ─────────────────────────────────────── */
+/* 📱 Responsive Design Below              */
+/* ─────────────────────────────────────── */
+
+@media screen and (max-width: 1024px) {
+    #player {
+        width: 90%;
+    }
+    .songSection {
+        width: 90%;
+        height: auto;
+    }
+    .song {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .songContainer {
+        width: 100%;
+        height: auto;
+    }
 }
-.icons{
-    margin-left: 42px;
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .icons {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .duration {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #player {
+        width: 90%;
+    }
+    .gif {
+        width: auto;
+        margin-left: 0;
+    }
+    .change {
+        margin-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .songname {
+        font-size: 0.95rem;
+    }
+    .timestamp {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        height: auto;
+        padding: 10px;
+    }
+    .brand {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 16px;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+    }
+    .songSection h1 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    .song {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .songname {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .songListplay {
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .bottom {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    #songGif {
+        font-size: 0.9rem;
+        width: 100%;
+    }
 }
