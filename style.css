@@ -342,10 +342,12 @@ h1 {
         height: auto;
         align-items: flex-start;
         padding: 10px;
+        
     }
     .songname {
         width: 100%;
         font-size: 0.9rem;
+
     }
     .songListplay {
         justify-content: space-between;
@@ -359,5 +361,27 @@ h1 {
     #songGif {
         font-size: 0.9rem;
         width: 100%;
+    }
+    .duration{
+        /* border: 2px solid red; */
+
+    }
+    #player{
+        /* border: 2px solid red; */
+        margin-top: 0px;
+    }
+    .box{
+        /* border: 2px solid blue; */
+        width: 92vw;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        
+    }
+    #img{
+        border: 2px solid peru;
+        display: none;
     }
 }
